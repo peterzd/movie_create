@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'sqlite3'
+gem 'haml-rails'
 
 
 group :assets do
@@ -21,4 +22,4 @@ group :development, :test do
 	gem 'webrat'
 end
 
-gem 'cucumber-rails', group: [:test]
+gem 'cucumber-rails', :require => false, group: [:test]
