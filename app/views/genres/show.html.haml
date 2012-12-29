@@ -1,0 +1,7 @@
+= @genre.name
+%br/
+= "#{@genre.movies.count} movie"
+%br/
+
+- @genre.movies.each do |movie|
+  = link_to movie.title, movie

@@ -1,9 +1,14 @@
 MovieCreate::Application.routes.draw do
+  get "genres/index"
+
+  get "genres/new"
+
   get "movies/index"
 
   get "movies/new"
 
   resources :movies
+  resources :genres
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

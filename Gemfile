@@ -20,6 +20,7 @@ group :development, :test do
   gem 'rspec-rails'
 	gem 'database_cleaner'
 	gem 'webrat'
+  gem 'selenium-client'
 end
 
 gem 'cucumber-rails', :require => false, group: [:test]
